@@ -9,4 +9,4 @@
  * step 2.2 else falsy;
  */
 Note: Tricky Part of the problem is  if user inputs "NaN" then
-while checking it will be  Nan===Nan which gives gives false.
+while checking it will be  Nan===Nan which gives false.
