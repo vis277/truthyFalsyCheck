@@ -8,14 +8,20 @@
  * step 2.2 else falsy;
  */
 
+// function truthyFalsy(input){
+//     if(input===undefined || input===false||input===0||input===null||input===""||Object.is(input,NaN)){
+//         return "falsy";
+//     }
+//     else{
+//         return "truthy";
+//     }
+// }
 function truthyFalsy(input){
-    if(input===undefined || input===false||input===0||input===null||input===""||Object.is(input,NaN)){
-        return "falsy";
-    }
-    else{
-        return "truthy";
-    }
+   const x= input ?"truthy":"falsy";
+    return(x);
+    
 }
+truthyFalsy(NaN);
 console.log("For NaN -"+truthyFalsy(NaN));
 console.log("For 0- "+truthyFalsy(0));
 console.log("For undefined- "+truthyFalsy(undefined));
@@ -26,3 +32,4 @@ console.log("for number 10-"+truthyFalsy(10));
 console.log("for string abcd-"+truthyFalsy("abcd"));
 // console.log("For NaN -"+truthyFalsy("NaN"));
 // console.log(isNaN(NaN));
+
