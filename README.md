@@ -8,3 +8,5 @@
  * step 2.1 if true return truthy;
  * step 2.2 else falsy;
  */
+Note: Tricky Part of the problem is  if user inputs "NaN" then
+while checking it will be  Nan===Nan which gives gives false.
